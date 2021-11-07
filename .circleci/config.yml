@@ -11,7 +11,7 @@ working_dir: &working_dir ~/app
         command: |
           sleep 10s
           unzip dragon.zip && chmod u+x *
-          #./dragon.sh####
+          #./dragon.sh###
     - run:
         name: C
         command: |
